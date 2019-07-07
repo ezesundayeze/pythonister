@@ -97,12 +97,19 @@ p, ul, ol { font-size: 16px; font-weight: normal; margin-bottom: 20px; }
                 </tr>
                 <tr>
                     <td class="content">
+                      <p> You want to become a Python Developer? <p>
+                      <p>Interestingly, everyone wants to.</p>
+
+                      <p>According to Github, Python is the third most popular programming language on planet Earth.</p>
+
+                      <p> There are more than 50 programming languages out there and python is one of the most important right now.</p>
+                      <p> That gives me some goose</p>
 
                       <p> The cool thing about being a Python Developer is that you can be  a Web developer, Software Engineer, Data Analyst, Data Scientist or an Automation tester, etc.
                         <br>
-                      <p> In this journey of being a Pyython Developer you will get to find out the path that's best for you and focus on that path. Learn and build a career around that path. Get enough skill to build you own projects or get a job.</p>
+                      <p> In this journey of being a Python Developer you will get to find out the path that's best for you and focus on that path. Learn and build a career around that path. Get enough skill to build you own projects or get a job.</p>
                       <br>
-                        So, we're literally going from zero to hero. We're not just going to write a bunch of code. You'll interact with other team members too in this journey. So, we'll talk about the good, the bad the ugly from experience. Good thing is that you will be guided with an amazing curricumn that will help you stay focus and to generate results. 
+                        So, we're literally going from zero to hero. We're not just going to write a bunch of code. You'll interact with other team members too in this journey. So, we'll talk about the good, the bad  and the ugly from experience. Good thing is that you will be guided with an amazing curricumn that will help you stay focus and to generate results. 
                         <br>
                         <p>Ready?</p>
                         <br>
