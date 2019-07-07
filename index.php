@@ -111,9 +111,9 @@ p, ul, ol { font-size: 16px; font-weight: normal; margin-bottom: 20px; }
                       <br>
                         So, we're literally going from zero to hero. We're not just going to write a bunch of code. You'll interact with other team members too in this journey. So, we'll talk about the good, the bad  and the ugly from experience. Good thing is that you will be guided with an amazing curricumn that will help you stay focus and to generate results. 
                         <br>
-                        <p>Ready?</p>
-                        <br>
-                        <p>...to be a part of this life changing journey.</p> 
+
+                        <p>Ready to be a part of this life changing journey?</p> 
+                        
                         <br>
                         Signup now for <em style="color: red">Free</em>
 
