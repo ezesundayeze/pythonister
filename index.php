@@ -149,6 +149,27 @@ p, ul, ol { font-size: 16px; font-weight: normal; margin-bottom: 20px; }
                         </div>
                     </form>
                     </div>
+
+                    <script>
+                    
+                    // select the target node
+                      var target = document.getElementById('mce-success-response');
+
+                      // create an observer instance
+                      var observer = new MutationObserver(function(mutations) {
+                        mutations.forEach(function(mutation) {
+                          if (target.innerHTML === "Thank you for subscribing!") {
+                            target.innerHTML = "Check your email!";
+                          }
+                        });
+                      });
+
+                      // configuration of the observer:
+                      var config = { attributes: true, childList: true, characterData: true };
+
+                      // pass in the target node, as well as the observer options
+                      observer.observe(target, config);
+                    </script>
                     <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
                     <!--End mc_embed_signup-->
 
