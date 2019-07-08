@@ -206,5 +206,21 @@ p, ul, ol { font-size: 16px; font-weight: normal; margin-bottom: 20px; }
         </td>
     </tr>
 </table>
+
+
+
+
+  
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143424213-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-143424213-1');
+</script>
+
 </body>
 </html>
