@@ -159,7 +159,9 @@ p, ul, ol { font-size: 16px; font-weight: normal; margin-bottom: 20px; }
                       var observer = new MutationObserver(function(mutations) {
                         mutations.forEach(function(mutation) {
                           if (target.innerHTML === "Thank you for subscribing!") {
-                            target.innerHTML = "Check your email!";
+
+                            window.locatiion.href="http://pythonister.com/thanks.html"
+
                           }
                         });
                       });
