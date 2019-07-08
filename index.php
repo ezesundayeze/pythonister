@@ -160,7 +160,8 @@ p, ul, ol { font-size: 16px; font-weight: normal; margin-bottom: 20px; }
                         mutations.forEach(function(mutation) {
                           if (target.innerHTML === "Thank you for subscribing!") {
 
-                            Window.locatiion.replace("http://pythonister.com/thanks.html")
+                            window.location.replace("http://pythonister.com/thanks.html");
+
 
                           }
                         });
