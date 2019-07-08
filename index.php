@@ -109,7 +109,10 @@ p, ul, ol { font-size: 16px; font-weight: normal; margin-bottom: 20px; }
                         <br>
                       <p> In this journey of being a Python Developer you will get to find out the path that's best for you and focus on that path. Learn and build a career around that path. Get enough skill to build you own projects or get a job.</p>
                       <br>
-                        So, we're literally going from zero to hero. We're not just going to write a bunch of code. You'll interact with other team members too in this journey. So, we'll talk about the good, the bad  and the ugly from experience. Good thing is that you will be guided with an amazing curricumn that will help you stay focus and to generate results. You'll learn the basics in 4 weeks, build a test-driven subscription app and move to advance python programming.  
+                        So, we're literally going from zero to hero. We're not just going to write a bunch of code. You'll interact with other team members too in this journey. So, we'll talk about the good, the bad  and the ugly from experience. 
+                        <br>
+                        
+                        <p>Good thing is that you will be guided with an amazing curricumn that will help you stay focus and to generate results. You'll learn the basics in 4 weeks, build a test-driven subscription app and move to advance python programming.</p>  
                         <br>
 
                         <p>Ready to be a part of this life changing journey?</p> 
