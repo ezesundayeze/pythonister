@@ -143,6 +143,8 @@ p, ul, ol { font-size: 16px; font-weight: normal; margin-bottom: 20px; }
                       <div id="mce-responses" class="clear">
                         <div class="response" id="mce-error-response" style="display:none"></div>
                         <div class="response" id="mce-success-response" style="display:none"></div>
+                        <div class="response" id="mce-success-loading" style="display:none"></div>
+
                       </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                         <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_b2c24afaa0e37031aaee3630f_c7db337f16" tabindex="-1" value=""></div>
                         <div class="clear" style="margin-left:40%;"><input type="submit" value="Signup" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
@@ -154,16 +156,21 @@ p, ul, ol { font-size: 16px; font-weight: normal; margin-bottom: 20px; }
                     
                     // select the target node
                       var target = document.getElementById('mce-success-response');
-
+                      var loading = document.getElementById('mce-success-loading');
+                      var img = document.createElement("img")
+                      img.src="loading.gif"
+                      
+                      
                       // create an observer instance
                       var observer = new MutationObserver(function(mutations) {
+                        loading.append(img)
                         mutations.forEach(function(mutation) {
                           if (target.innerHTML === "Thank you for subscribing!") {
-
+                            target.innerHTML = "Thank you for subscribing!...."
                             window.location.replace("http://pythonister.com/thanks.html");
 
-
                           }
+                          
                         });
                       });
 
